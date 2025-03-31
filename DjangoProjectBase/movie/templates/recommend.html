@@ -10,16 +10,16 @@
 <body class="bg-light">
 
     <div class="container mt-5">
-        <h1 class="text-center mb-4">🎬 Recomendador de Películas</h1>
+        <h1 class="text-center mb-4"> Recommend </h1>
 
         <div class="card shadow p-4">
             <form method="POST">
                 {% csrf_token %}
                 <div class="mb-3">
-                    <label class="form-label fw-bold">Describe una película que te gustaría ver:</label>
-                    <input type="text" name="prompt" class="form-control" placeholder="Ejemplo: Acción con ciencia ficción" required>
+                    <label class="form-label fw-bold">Search for prompt:</label>
+                    <input type="text" name="prompt" class="form-control" placeholder="Ejemplo: History and mistery" required>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">🔍 Buscar</button>
+                <button type="submit" class="btn btn-primary w-100">Search</button>
             </form>
         </div>
 

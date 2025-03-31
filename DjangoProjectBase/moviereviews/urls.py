@@ -29,6 +29,7 @@ urlpatterns = [
     path('statistics/', movieViews.statistics_view, name='statistics'),
     path('signup/', movieViews.signup, name='signup'),
     path("recommend/", movieViews.recommend_movie, name="recommend_movie"),
+
 ]
 
 
