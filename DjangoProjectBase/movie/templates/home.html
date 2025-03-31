@@ -11,7 +11,6 @@
         </div>
         <button type="submit" class="btn btn-primary">Search</button>
     </form>   
-    <p>Searching for: {{searchTerm}}</p> 
     <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- define una fila en una cuadrícula con una columna en pantallas extra pequeñas y tres columnas en pantallas grandes-->
         {% for movie in movies %}
         <div v-for="movie in movies" class="col">
