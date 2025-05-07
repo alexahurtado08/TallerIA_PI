@@ -12,7 +12,7 @@ from .models import Movie
 
 
 # Cargar API Key
-load_dotenv('openai_apikey')
+load_dotenv('api_keys.env')
 client = OpenAI(api_key=os.environ.get('api_key'))
 
 # Función para calcular similitud de coseno
